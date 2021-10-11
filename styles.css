@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Bodoni Moda', serif;
+    background-color: #E9E9E9;
+
+}
+nav{
+    text-align: right;
+    padding: 2%;
+    margin-left: 50px;
+}
+.navbar{
+    width: 100fr;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 290px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    float: right;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: #FD872D;
+}
+.social-links{
+   float: right;
+   margin-right: 3%;
+   margin-top: 7%;
+   margin-right: 5%;
+}
+.social-links ul li{
+    list-style: none;
+}
+.social-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    position: relative;
+    display: block;
+    margin-top: 75px;
+}
+.social-links ul li a:hover{
+    color: #FD872D;
+}
+.container{
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 5%;
+    background: transparent;
+}
+.container h1{
+    padding-bottom: 4%;
+    color: #707070;
+    font-weight: normal;
+    background: transparent;
+}
+.container p{
+    line-height: 2.5;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    background: transparent;
+}
+ button{
+    margin-top: 39px;
+    width: 200px;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    background: #E8E1DB;
+    cursor: pointer;
+    border-radius: 8%;
+    padding-left: 5px;
+}
+button:hover{
+    color: #8F241C;
+}
+button i{
+    margin-left: 27px;
+}
+button i:hover{
+    color: #8F241C;
+}
+.logo{
+    transform: rotate(-90deg);
+    margin-top: -3%;
+    float: left;
+} 
+
+.hero-img{
+    display: block;
+    margin-left: 35%;
+    width: 58%;
+    margin-top: -410px;
+}
+.line{
+    border-width:0;
+    height: 1px; 
+    width: 700px; 
+    position: absolute;
+    left: -250px;
+    margin-left: -2px;
+    background-color: #a5a5a5; 
+    transform: rotate(90deg);
+}
